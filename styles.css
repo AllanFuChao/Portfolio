@@ -33,7 +33,15 @@ main {
 }
 
 h2 {
-    color: #27ae60;
+    border: 1ms, black;
+    background-color: rgba(255, 242, 222, 0.8); /* Color pastel crema con transparencia */
+    padding: 15px 20px;
+    border-radius: 15px; /* Esquinas redondeadas */
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: #333; /* Color oscuro para legibilidad */
+    transition: box-shadow 0.3s ease-in-out; /* Transición suave para el efecto de sombra */
 }
 
 .card {
