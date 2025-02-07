@@ -67,7 +67,8 @@ nav ul li a {
 }
 
 #photo {
-    max-width: 400px;
+    max-width: 40px;
+    min-width: 20vw;
     height: auto;
     border-radius: 50px;
 
@@ -76,6 +77,11 @@ nav ul li a {
 #bio {
 
     align-self: center;
+}
+
+.currently {
+    max-width: 30vw;
+    min-width: 20vw;
 }
 
 .left, .right {
