@@ -44,13 +44,18 @@ nav ul {
     padding: 0;
 }
 
-nav ul li {
-    display: inline;
-}
-
 nav ul li a {
     color: white;
     text-decoration: none;
+    display: inline;
+}
+
+.right a {
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 5px 10px 5px 10px;
+    border-radius: 15px;
 }
 
 .content {
@@ -61,7 +66,6 @@ nav ul li a {
     border: 5px solid red;
 }
 
-
 #photo {
     max-width: 40px;
     min-width: 20vw;
@@ -69,14 +73,20 @@ nav ul li a {
     border-radius: 50px;
 }
 
-#bio {
-
-    align-self: center;
+#currently {
+    width: 300px;
+    height: 200px;
+    overflow: hidden; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .currently {
-    max-width: 30vw;
-    min-width: 20vw;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
 }
 
 .left, .right {
@@ -86,7 +96,7 @@ nav ul li a {
     height: 60vh;
     text-align: center;
     border: 5px solid red;
-
+    flex-direction: column;
 }
 
 .divider {
