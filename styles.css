@@ -23,6 +23,7 @@ body, html {
     justify-content: space-between;
     padding: 10px;
     border-radius: 10px;
+    border: solid red;
 }
 
 header {
@@ -57,21 +58,15 @@ nav ul li a {
     justify-content: space-between;
     height: 100%;
     align-items: center;
-
+    border: 5px solid red;
 }
 
-.right {
-    display:flex;
-    flex-direction: row;
-
-}
 
 #photo {
     max-width: 40px;
     min-width: 20vw;
     height: auto;
     border-radius: 50px;
-
 }
 
 #bio {
@@ -85,8 +80,12 @@ nav ul li a {
 }
 
 .left, .right {
-    width: 48%;
+    display:flex;
+    align-items: center;
+    width: 40vw;
+    height: 60vh;
     text-align: center;
+    border: 5px solid red;
 
 }
 
