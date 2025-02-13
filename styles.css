@@ -6,18 +6,20 @@
     font-family: "Ubuntu", serif;
 }
 
-ul{
+ul {
     display: flex;
     list-style: none;
     justify-content: flex-end;
 }
 
 li {
+    margin:1.5rem;
     padding: 0.5rem;
     padding-right: 2rem;
+    font-size: 1.2rem;
 }
 
-body{
+body {
     height: 100vh;
     box-sizing: border-box;
     background-color: #2C3930;
@@ -30,19 +32,21 @@ h1 {
     font-size: 3rem;
 }
 
-p{
+p {
     color: #dddddd;
     text-align: center;
     font-size: 1.5rem;
 }
 
-a{
+a {
     color:#A27B5C;
     text-decoration: none;
 }
 
-footer{
+footer {
+    padding: 2rem;
     font-size: small;
+    text-align: center;
 }
 
 main {
@@ -51,21 +55,39 @@ main {
     align-items: center;
 }
 
+.li_socials {
+    width: 50px; 
+    height: 50px;
+    display:flex;
+    align-items: center;
+    text-align: center;
+    border-radius: 15%;
+    box-shadow: 2px 2px 5px rgba(128, 128, 128, 0.116);
+    transition: transform 0.2s ease-in-out;
+    background-color: #3F4F44;
+}
+
+li:hover {
+    transform: scale(1.02);
+}
+
+#ul_socials {
+    justify-content: center;
+}
 
 #aboutMe {
     width: 100%;
     height: 100%;
     background-color: #2C3930;
     display:flex;
-    justify-content: center;
+    justify-content: space-evenly;
     overflow: visible;
+    margin-top:2rem;
 }
 
 #presentation {
     width: 50rem;
     height: 50rem;
-    min-width: 250px;
-    min-height: 450px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -77,6 +99,5 @@ main {
     width: 30rem;
     height: 40rem;
     padding: 2rem;
-    padding-right: 5rem;
 }
 
