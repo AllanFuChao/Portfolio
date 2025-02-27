@@ -56,19 +56,27 @@ main {
 }
 
 .li_socials {
-    width: 50px; 
+    width: 80px; 
     height: 50px;
     display:flex;
     align-items: center;
     text-align: center;
-    border-radius: 15%;
+    border-radius: 35px;
     box-shadow: 2px 2px 5px rgba(128, 128, 128, 0.116);
     transition: transform 0.2s ease-in-out;
     background-color: #3F4F44;
 }
 
+.logos {
+    padding-right: 5px;
+}
+
 li:hover {
     transform: scale(1.02);
+}
+
+#linkedin {
+    padding-right: 50px;
 }
 
 #ul_socials {
@@ -100,4 +108,9 @@ li:hover {
     height: 40rem;
     padding: 2rem;
 }
+
+#github_logo {
+    width: 25px;
+}
+
 
