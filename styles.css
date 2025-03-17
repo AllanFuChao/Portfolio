@@ -113,4 +113,24 @@ li:hover {
     width: 25px;
 }
 
+@media (max-width: 900px){
+    header nav ul{
+        justify-content: center;
+    }
 
+    #portrait {
+        width: auto;
+        height: auto;
+        padding-bottom: auto;
+    }
+
+    #aboutMe {
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    #presentation {
+        padding-top: 0px;
+        width: auto;
+    }
+}
